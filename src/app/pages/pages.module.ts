@@ -4,6 +4,7 @@ import { CommonModule } from '@angular/common';
 import { PagesRoutingModule } from './pages-routing.module';
 import { HomeComponent } from './home/home.component';
 import { ComponentsModule } from '../components/components.module';
+import { OnElementLoadedDirective } from '../shared/directives/on-element-loaded.directive';
 
 
 @NgModule({
@@ -11,7 +12,8 @@ import { ComponentsModule } from '../components/components.module';
 	imports: [
 		CommonModule,
 		ComponentsModule,
-		PagesRoutingModule
+		PagesRoutingModule,
+		OnElementLoadedDirective
 	]
 })
 export class PagesModule { }

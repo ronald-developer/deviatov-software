@@ -3,7 +3,7 @@
 	"version": 1,
 	"newProjectRoot": "projects",
 	"projects": {
-		"ilia-deviatov-soft": {
+		"deviatov-soft": {
 			"projectType": "application",
 			"schematics": {
 				"@schematics/angular:component": {
@@ -17,7 +17,7 @@
 				"build": {
 					"builder": "@angular-devkit/build-angular:application",
 					"options": {
-						"outputPath": "dist/ilia-deviatov-soft",
+						"outputPath": "dist/deviatov-soft",
 						"index": "src/index.html",
 						"browser": "src/main.ts",
 						"polyfills": [
@@ -37,7 +37,8 @@
 							"src/styles.scss"
 						],
 						"scripts": [
-							"node_modules/@fortawesome/fontawesome-free/js/fontawesome.min.js"
+							"node_modules/@fortawesome/fontawesome-free/js/fontawesome.min.js",
+							"node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
 						]
 					},
 					"configurations": {
@@ -54,7 +55,11 @@
 									"maximumError": "4kB"
 								}
 							],
-							"outputHashing": "all"
+							"optimization": true,
+							"outputHashing": "all",
+							"sourceMap": false,
+							"namedChunks": true,
+							"extractLicenses": true
 						},
 						"development": {
 							"optimization": false,
@@ -68,10 +73,10 @@
 					"builder": "@angular-devkit/build-angular:dev-server",
 					"configurations": {
 						"production": {
-							"buildTarget": "ilia-deviatov-soft:build:production"
+							"buildTarget": "deviatov-soft:build:production"
 						},
 						"development": {
-							"buildTarget": "ilia-deviatov-soft:build:development"
+							"buildTarget": "deviatov-soft:build:development"
 						}
 					},
 					"defaultConfiguration": "development"
