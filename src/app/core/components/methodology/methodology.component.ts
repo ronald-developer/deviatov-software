@@ -12,13 +12,16 @@ import { Observable } from 'rxjs';
 export class MethodologyComponent implements OnInit {
 	customOptions: OwlOptions = {
 		loop: false,
-		mouseDrag: false,
-		touchDrag: false,
+		mouseDrag: true,
+		touchDrag: true,
 		pullDrag: false,
 		dots: false,
 		navSpeed: 700,
-		navText: ['', ''],
+		navText: ['Prev', 'Next'],
 		responsive: {
+			0: {
+				items: 1
+			},
 			400: {
 				items: 1
 			},
