@@ -1,0 +1,27 @@
+.carousel {
+	width: 100%;
+	margin: 20px auto;
+  }
+
+  .carousel-item img {
+	max-height: 400px;
+	object-fit: cover;
+  }
+
+  .carousel-caption {
+	background: rgba(0, 0, 0, 0.5);
+	padding: 10px;
+  }
+  .carousel-item.active{
+	display: block;
+	animation: fadeIn 3s;
+  }
+  @keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 1;
+	}
+  }

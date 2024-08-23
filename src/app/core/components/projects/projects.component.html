@@ -1,0 +1,16 @@
+<!-- Projects -->
+<section id="projects" class="projects my-6" *ngIf="data$ | async as data">
+	<div class="container">
+		<div class="row mb-5">
+			<div class="col-md-6 offset-md-3 d-flex flex-column align-items-center text-center">
+				<h5><span class="badge bg-primary rounded-0 text-uppercase">
+				{{data.title}}
+				</span></h5>
+				<h2 class="fw-bold">{{data.subTitle}}</h2>
+				<p>  {{data.intro}}</p>
+			</div>
+		</div>
+
+		<app-image-slider [sliderItems]="data.contents"></app-image-slider>
+	</div>
+</section>

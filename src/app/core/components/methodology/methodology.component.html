@@ -1,0 +1,32 @@
+<section id="methodology" class="my-5" *ngIf="data$ | async as data">
+	<div class="container">
+		<div class="row mb-4">
+			<div class="col-md-6 offset-md-3 d-flex flex-column align-items-center text-center">
+				<h5><span class="badge bg-primary rounded-0 text-uppercase">
+				{{data.title}}
+				</span></h5>
+				<p>
+					{{data.intro}}
+				</p>
+			</div>
+		</div>
+		<div class="row">
+			<owl-carousel-o [options]="customOptions">
+				<ng-container *ngFor="let content of data.contents">
+					<ng-template carouselSlide>
+						<div class="card bg-secondary mx-3 carousel_methodology">
+							<img [src]="content.imgSrc" alt="" class="card-img-top">
+							<div class="card-body">
+								<h5 class="card-title fw-bold">{{content.title}}</h5>
+								<p class="card-text">
+									{{content.description}}
+								</p>
+							</div>
+						</div>
+					</ng-template>
+				</ng-container>
+			</owl-carousel-o>
+		</div>
+	</div>
+</section>
+

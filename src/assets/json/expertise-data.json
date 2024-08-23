@@ -1,0 +1,47 @@
+{
+	"title": "Expertise",
+	"subTitle": "Expertise Strong Points",
+	"intro": "We take pride in our expertise. With years of experience and a dedicated team, we deliver exceptional software solutions tailored to your needs. Our strong points include:",
+	"contents": [
+		{
+			"title": "Flexible Services",
+			"description": "We offer adaptable and tailored services that can be customized to meet the unique needs of every client. Our flexibility ensures that no matter the challenge, we can provide a solution that aligns perfectly with your objectives.",
+			"icon": "fa-lightbulb"
+		},
+		{
+			"title": "Great Design",
+			"description": "Our design philosophy centers on aesthetics and functionality. We create visually stunning and intuitive designs that enhance user experience and effectively communicate your brand’s message.",
+			"icon": "fa-desktop"
+		},
+		{
+			"title": "Easy To Use",
+			"description": "User-friendliness is at the core of everything we build. Our products and services are designed to be intuitive and easy to navigate, ensuring that users can achieve their goals effortlessly.",
+			"icon": "fa-universal-access"
+		},
+		{
+			"title": "Smart Options",
+			"description": "We provide intelligent options that empower users with choice and control. Our solutions are equipped with smart features that enhance efficiency and allow for seamless customization to suit specific needs.",
+			"icon": "fa-cog"
+		},
+		{
+			"title": "Advanced Tech",
+			"description": "We leverage cutting-edge technology to deliver superior performance. Our commitment to staying ahead of the tech curve means you benefit from the most advanced and reliable solutions available.",
+			"icon": "fa-microchip"
+		},
+		{
+			"title": "Good Expertise",
+			"description": "With years of experience and deep industry knowledge, our team brings unmatched expertise to every project. We are dedicated to delivering high-quality results that exceed expectations.",
+			"icon": "fa-graduation-cap"
+		},
+		{
+			"title": "Detailed Reports",
+			"description": "Our reporting capabilities are comprehensive and detailed, providing clear insights and actionable data. We ensure that you have all the information needed to make informed decisions.",
+			"icon": "fa-clipboard"
+		},
+		{
+			"title": "Cloud Storage",
+			"description": "We offer secure and scalable cloud storage solutions that ensure your data is always accessible and protected. Our cloud services provide peace of mind with robust security and easy integration.",
+			"icon": "fa-cloud"
+		}
+	]
+}

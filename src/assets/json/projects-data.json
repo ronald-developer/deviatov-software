@@ -1,0 +1,37 @@
+{
+	"title": "Projects",
+	"subTitle": "Project's We Are Proud Of",
+	"intro": "We take pride in our successful projects and the value they bring to our clients. With our expertise and dedication, we have delivered exceptional results. Here are some highlights",
+	"contents": [
+		{
+			"title": "FarmX Zambia",
+			"description": "FarmX is a highly configurable, modular ERP platform designed to enhance farming operations of all sizes, across all sectors. Creating efficiency through better planning and better visibility of resource allocation, ultimately giving you the ability to leverage your own data to improve performance year on year.",
+			"url": "https://farmxagri.com/",
+			"imageUrl": "/assets/images/farmx.jpg"
+		},
+		{
+			"title": "Ross Breeders",
+			"description": "Ross Breeders Zambia is one of Zambia’s largest poultry product and animal feed providers. With a reputation for supplying quality parent and broiler day old chicks, broiler hatching eggs, stock feed and processed chicken.",
+			"url": "https://rossdepots.azurewebsites.net/",
+			"imageUrl": "/assets/images/ross.png"
+		},
+		{
+			"title": "Tombwe Processing Limited",
+			"description": "",
+			"url": "https://farmxagri.com/",
+			"imageUrl": "/assets/images/not-found.png"
+		},
+		{
+			"title": "ADM Farming",
+			"description": "Patient management system",
+			"url": "",
+			"imageUrl": "/assets/images/not-found.png"
+		},
+		{
+			"title": "Extend care",
+			"description": "Patient management system",
+			"url": "",
+			"imageUrl": "/assets/images/not-found.png"
+		}
+	]
+}

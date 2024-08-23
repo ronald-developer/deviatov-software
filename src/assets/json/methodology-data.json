@@ -1,0 +1,36 @@
+	{
+		"title": "Methodology",
+		"intro": "Our approach is designed to deliver robust, scalable, and future-proof software that drives your business forward.",
+		"contents": [
+			{
+				"title": "Client-Centric Discovery",
+				"description": "We start by deeply understanding your business needs, challenges, and goals. Through thorough consultations and requirement gathering, we ensure that the solution we design aligns perfectly with your objectives.",
+				"imgSrc": "/assets/images/crm.jpg"
+			},
+			{
+				"title": "Innovative Solution Design",
+				"description": "Our team of expert architects crafts a tailored solution, choosing the best technologies and frameworks to meet your unique requirements. We create prototypes to visualize the end product, ensuring alignment every step of the way.",
+				"imgSrc": "/assets/images/idea.jpg"
+			},
+			{
+				"title": "Agile Development Excellence",
+				"description": "Leveraging the power of Agile, we break the project into manageable sprints, delivering functional components incrementally. This approach allows us to adapt to changes swiftly, keeping your project on track and within budget.",
+				"imgSrc": "/assets/images/wms.jpg"
+			},
+			{
+				"title": "Uncompromising Quality Assurance",
+				"description": "Quality is at the heart of what we do. We perform comprehensive testing, from unit tests to user acceptance, ensuring your software is reliable, secure, and performs flawlessly.",
+				"imgSrc": "/assets/images/quality-assurance.jpg"
+			},
+			{
+				"title": "Evaluation & Deployment",
+				"description": "We offer a comprehensive evaluation and tailor our solutions to align with your unique business needs, ensuring smooth integration of the software into your existing infrastructure while minimizing disruptions.",
+				"imgSrc": "/assets/images/evaluation-deployment.jpg"
+			},
+			{
+				"title": "Ongoing Support & Innovation",
+				"description": "Post-launch, we stay by your side, offering continuous monitoring, regular updates, and dedicated support. As your long-term technology partner, we help your business adapt and grow, ensuring your software evolves with you.",
+				"imgSrc": "/assets/images/support.jpg"
+			}
+		]
+	}

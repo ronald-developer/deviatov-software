@@ -1,0 +1,27 @@
+<div class="carousel slide" data-ride="carousel">
+	<div class="carousel-inner">
+		<div
+			*ngFor="let image of sliderItems; let i = index"
+			class="carousel-item"
+			[ngClass]="{ active: i === currentIndex }"
+		>
+			<img
+				[src]="image.imageUrl"
+				class="d-block w-100 object-fit-scale"
+				alt="Image {{ i + 1 }}"
+			/>
+		</div>
+	</div>
+	<a class="carousel-control-prev" role="button" (click)="prevImage()">
+		<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		<span class="sr-only">Previous</span>
+	</a>
+	<a class="carousel-control-next" role="button" (click)="nextImage()">
+		<span class="carousel-control-next-icon" aria-hidden="true"></span>
+		<span class="sr-only">Next</span>
+	</a>
+</div>
+<div class="description">
+	<h5><a [href]="sliderItems[currentIndex].url" target="_blank">{{sliderItems[currentIndex].title}} </a></h5>
+	<p>{{ sliderItems[currentIndex].description }}</p>
+</div>
